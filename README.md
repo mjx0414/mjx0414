@@ -53,7 +53,7 @@
 
 | 项目 | 一句话 |
 | :-- | :-- |
-| [fish-eats-fish](https://github.com/mjx0414/fish-eats-fish) | 原生 Canvas 写的「大鱼吃小鱼」,零依赖,约 20 KB,[在线试玩](https://mjx0414.github.io/fish-eats-fish/) |
+| [fish-eats-fish](https://github.com/mjx0414/fish-eats-fish) | 原生 Canvas 写的「大鱼吃小鱼」,零依赖,928 行,[在线试玩](https://mjx0414.github.io/fish-eats-fish/) |
 
 <!-- 每个项目写清四件事:
 1. 这是在解决什么问题
