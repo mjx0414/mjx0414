@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Jiaxin Ma — mjx0414">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0f14"/>
+      <stop offset="0.5" stop-color="#111820"/>
+      <stop offset="1" stop-color="#0b0f14"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset="1" stop-color="#a371f7"/>
+    </linearGradient>
+    <linearGradient id="arc" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset="1" stop-color="#a371f7"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58a6ff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#a371f7" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.25" r="0.75">
+      <stop offset="0" stop-color="#58a6ff" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#58a6ff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1.2" fill="#30363d" opacity="0.5"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#dots)"/>
+  <rect width="1200" height="320" fill="url(#glow)"/>
+
+  <!-- 左侧竖向强调线 -->
+  <rect x="48" y="112" width="3" height="164" rx="1.5" fill="url(#accent)"/>
+
+  <!-- 眉标 -->
+  <text x="96" y="122" fill="#6e7681" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" letter-spacing="4.5">GITHUB PROFILE</text>
+
+  <!-- 姓名 -->
+  <text x="94" y="188" fill="#f0f6fc" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="66" font-weight="700" letter-spacing="-1.5">Jiaxin Ma</text>
+
+  <!-- handle -->
+  <text x="96" y="232" fill="#58a6ff" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="20">@mjx0414</text>
+
+  <!-- 分隔线 -->
+  <rect x="96" y="252" width="132" height="1.5" fill="url(#fade)"/>
+
+  <!-- 标语 -->
+  <text x="96" y="288" fill="#8b949e" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif" font-size="15" letter-spacing="2.6">BUILD &#183; LEARN &#183; SHIP</text>
+
+  <!-- 右侧轨道:细圆环 + 虚线外环 + 渐变弧 -->
+  <g>
+    <circle cx="1010" cy="160" r="104" fill="none" stroke="#30363d" stroke-width="1.1" opacity="0.75"/>
+    <circle cx="1010" cy="160" r="132" fill="none" stroke="#30363d" stroke-width="1" opacity="0.35" stroke-dasharray="2 9"/>
+    <path d="M 1010 56 A 104 104 0 0 1 1114 160" fill="none" stroke="url(#arc)" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 1010 264 A 104 104 0 0 1 906 160" fill="none" stroke="url(#arc)" stroke-width="3" stroke-linecap="round" opacity="0.45"/>
+    <circle cx="1114" cy="160" r="3.5" fill="#a371f7"/>
+    <circle cx="906" cy="160" r="2.5" fill="#58a6ff" opacity="0.7"/>
+  </g>
+
+  <!-- 右下角说明 -->
+  <text x="1112" y="288" text-anchor="end" fill="#484f58" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" letter-spacing="3">EST. 2026</text>
+
+  <!-- 底部细线 -->
+  <rect x="0" y="318" width="1200" height="2" fill="url(#fade)" opacity="0.5"/>
+</svg>
