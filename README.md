@@ -4,31 +4,29 @@
 
 <br/>
 
-**写代码 · 做东西 · 持续记录**
+**大四在读 · 从基础开始,把东西做出来**
 
 </div>
 
 ## 关于
 
-从零开始,把想法做成能跑的东西。
+马佳欣,大四学生,编程起步不算早,现在在补基础。
 
-我更在意「做完」而不是「开始」,所以这里出现的仓库,大概率是已经能用、能读、能改的。
-
-<!-- 一行个人定位示例:
-> 后端方向,关注系统设计与性能;现在在做 XXX。
--->
+这个主页不放「热爱技术」「精通各种语言」这类话 —— 只放做完的、能跑的、别人能看懂的东西。
 
 ## 现在
 
-- 搭建自己的第一组公开项目
-- 整理长期可复用的工具链
-- 保持稳定的提交节奏
+- 补基础:语法 → 数据结构 → 调试
+- 做第一个完整的、能演示的项目
+- 保持提交节奏,把进度留在这里
 
-<!-- 这一节建议每月更新一次,写具体的、可验证的事:
+## 接下来
 
-- 正在做:**项目名** —— 一句话说清它解决什么问题
-- 正在学:**技术名** —— 到哪个阶段了
--->
+|   # | 要做的事 | 状态 |
+| :-: | :-- | :-- |
+|  1  | 一个命令行小工具(练基础语法与调试) | 进行中 |
+|  2  | 一个带数据库的 Web 小项目(练增删改查) | 计划中 |
+|  3  | 把其中一个做到能拿给别人演示 | 计划中 |
 
 ## 工具链
 
@@ -39,19 +37,21 @@
   <img src="https://img.shields.io/badge/Windows%20Terminal-4D4D4D?style=flat-square&logo=windowsterminal&logoColor=white" alt="Windows Terminal" />
 </p>
 
-<!-- 有确定的技术栈后,按下面格式加:
+<!-- 确定方向后在这里加语言/框架徽章,规则:只列真正写过的,超过 8 个就精简。
 
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-
-  规则:只列真正用过的;超过 8 个就精简。
 -->
 
 ## 联系
 
-- 有问题或想法,直接开 [Issue](https://github.com/mjx0414/mjx0414/issues)
+- 校招 / 实习 / 技术交流:开一个 [Issue](https://github.com/mjx0414/mjx0414/issues) 就可以
 
-<!-- 有仓库之后,把这一节换成置顶项目,3 个以内:
+<!-- 校招一定要留邮箱,很多 HR 不会去点 Issue:
+
+- 邮箱:xxx@xxx.com
+-->
+
+<!-- 有项目之后,把「接下来」换成真正的项目列表,3 个以内:
 
 ## 项目
 
@@ -59,9 +59,9 @@
 | :-- | :-- |
 | [repo-name](https://github.com/mjx0414/repo-name) | 它做了什么、解决了什么问题 |
 
-> 不要罗列所有仓库,只写值得别人点进去的。
+  README 里写清四件事:这是在解决什么问题、怎么跑起来、做了什么取舍、结果是什么。
 -->
 
 <div align="center">
-<sub>Last updated · 2026</sub>
+<sub>Last updated · 2026-10</sub>
 </div>
